@@ -1,7 +1,25 @@
 aid: the-cru
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-cru.png
 name: The Cru
-description: The Cru is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: The Cru (now branded "The Cru Empowered by Luminary") is a membership
+  community founded by Tiffany Dufu that matches women and allies into small peer-coaching
+  accountability circles ("Crus") of 6-8 members who meet in monthly 90-minute gatherings
+  to advance their personal and professional goals. It was acquired by Luminary, a
+  New York City based professional community and coworking organization, and the
+  thecru.com site now redirects to weareluminary.com/luminary-crus. This is a consumer
+  community and coaching business, not a technical platform - it publishes no public
+  API, developer portal, or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/the-cru/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Community
+- Women in Leadership
+- Professional Development
+- Coaching
+- Membership
+- Networking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.thecru.com/
+- type: PrivacyPolicy
+  url: https://www.weareluminary.com/privacy
+- type: DomainSecurity
+  url: security/the-cru-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
