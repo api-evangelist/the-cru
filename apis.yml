@@ -56,6 +56,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/luminary/
+  name: Luminary
+  x-relationship: acquired
+  x-evidence: "It was acquired by Luminary, a New York City based professional community and coworking organization, and the thecru."
 - type: Website
   url: https://www.thecru.com/
 - type: PrivacyPolicy
