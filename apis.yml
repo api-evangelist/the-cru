@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.thecru.com/', status: 302, note: 'declared website redirects to https://www.weareluminary.com/luminary-crus — a different registrable domain (thecru.com -> weareluminary.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-cru.png
 name: The Cru
 description: The Cru (now branded "The Cru Empowered by Luminary") is a membership
